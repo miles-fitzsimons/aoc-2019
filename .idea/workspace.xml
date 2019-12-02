@@ -26,6 +26,7 @@
   <component name="PropertiesComponent">
     <property name="GoToNamespace.includeLibraries" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="cursive.last.file.extension./home/miles/dev/aoc-2019/resources" value="clj" />
     <property name="cursive.last.file.extension./home/miles/dev/aoc-2019/src" value="clj" />
     <property name="cursive.last.file.extension./home/miles/dev/aoc-2019/test" value="clj" />
   </component>
