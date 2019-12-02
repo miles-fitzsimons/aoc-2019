@@ -12,3 +12,18 @@
         (case (input n)
           1 (recur (assoc input index-c (+ a b)) (+ n 4))
           2 (recur (assoc input index-c (* a b)) (+ n 4)))))))
+
+(defn brute-force
+  [input]
+  (loop [instructions (for [instruction '(1 2)
+                            noun (range 100)
+                            verb (range 100)]
+                        [instruction noun verb])]
+    (let [result (computer (assoc
+                             input
+                             0 ((first instructions) 0)
+                             1 ((first instructions) 1)
+                             2 ((first instructions) 2)))]
+      (if (= (first result) 19690720)
+        (first instructions)
+        (recur (rest instructions))))))
