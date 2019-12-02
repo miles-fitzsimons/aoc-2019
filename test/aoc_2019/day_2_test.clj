@@ -17,6 +17,10 @@
     (is (= [30 1 1 4 2 5 6 0 99] (day-2/computer [1 1 1 4 99 5 6 0 99])))
     (is (= 5305097 (first (day-2/computer input))))))
 
+(deftest part-2
+  (testing "brute-force"
+    (is (= [1 49 25] (day-2/brute-force input)))))
+
 (def input [1
             12
             2

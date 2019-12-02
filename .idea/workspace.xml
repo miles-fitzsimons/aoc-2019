@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ebc0217-3c84-4b9e-90f6-dda5a9555b09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/aoc_2019/day_2.clj" beforeDir="false" afterPath="$PROJECT_DIR$/src/aoc_2019/day_2.clj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/aoc_2019/day_2_test.clj" beforeDir="false" afterPath="$PROJECT_DIR$/test/aoc_2019/day_2_test.clj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +29,7 @@
     <property name="cursive.last.file.extension./home/miles/dev/aoc-2019/src" value="clj" />
     <property name="cursive.last.file.extension./home/miles/dev/aoc-2019/test" value="clj" />
   </component>
-  <component name="ReplState" timestamp="1575279210151">{:repl-history {:ide [], :local [], :remote []}}</component>
+  <component name="ReplState" timestamp="1575279487667">{:repl-history {:ide [], :local [], :remote []}}</component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
